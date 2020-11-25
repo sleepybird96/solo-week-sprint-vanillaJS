@@ -1,0 +1,190 @@
+* {
+    
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat:no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+
+  
+  h1 {
+    height: 70px;
+    line-height: 60px;
+    font-size: 2.5em;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+  
+  /* 유저네임 코멘트 있는 부분 */
+  #wrap1 {
+    height: 250px;
+  }
+  
+  #form1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "SF Pro KR";
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0px 0px 30px;
+    height: 130px;
+    border: 0px solid rgb(221, 1, 1);
+  }
+
+  .user {
+    color: white;
+    font-family: "Garamond";
+  }
+  .Comment{
+    color: white;
+    font-family: "Garamond";
+  }
+  #username{
+    height: 30px;
+    border-radius: 1em;
+    background-color: thistle;
+    width: 150px;
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+  }
+  #comment{
+
+    height: 30px;
+    border-radius: 1em;
+    border: 1px solid thistle;
+    background-color: thistle;
+    width: 400px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+  }
+  #btn {
+    height: 35px;
+    line-height: 35px;
+    font-family: "Comic Sans MS";
+    color: white;
+    background-color: thistle;
+    font-size: 1em;
+    width: 90px
+  }
+  
+  #gobackbtn {
+    height: 35px;
+    line-height: 35px;
+    font-family: "Comic Sans MS";
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    font-size: 1em;
+    background-color: rgb(113, 182, 247);
+    width: 90px
+  }
+  
+  
+  #form2 {
+
+    padding: 10px 0px 0px 30px;
+    height: 50px;
+  
+  }
+  #checkbtn{
+    height: 30px;
+    line-height: 30px;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-size: 1em;
+    background-color: #9198e5;
+    width: 150px
+  }
+  
+  ul {
+    padding: 25px 30px 0px 30px;
+    color: white;
+    list-style: none;
+  }
+  
+  li{
+    color: white;
+    border-bottom:2px solid #b36ea4;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    width: 940px
+  }
+  .Nick{
+    font-weight: bold;
+    padding: 00px 0px 2px 0px;
+  }
+
+span {
+    float: right;
+  position: absolute;
+  right: 30px;
+  padding: 0px 220px 00px 0px;
+  color: whitesmoke;
+  }
+
+
+/* 모달 설정 */
+  #myModal {
+    /* 화면 가운데 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 처음에 안 보이게 */
+    display: none;
+    /* 스크롤 고정 */
+    position: fixed;
+    /* 제일 앞으로  */
+    z-index: 1;
+    /* 넓이와 화면상 위치 */
+    width: 60%;
+    bottom: 50%;
+    /* 투명도 조절. 마지막 숫자를 바꿔주면 된다! 0이면 완전 투명.*/
+    background-color: rgba(0,0,0,0.4);
+}
+/* 모달 내용 */
+#modal-content {
+    /* 글씨를 가운데에 위치 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* 위치 추가 조절 */
+    margin: 10px;
+    height: 100px;
+    /* 글씨 색 */
+    color:white;
+}
+/* 모달 버튼 */
+#modal_btn {
+    /* 배경 투명 */
+    background-color: rgba(0,0,0,0);
+}
+/* 닫기 버튼 */
+
+.close {
+    color: rgb(224, 224, 224);
+    font-size: 30px;
+    margin-top: 60px;
+    margin-right: 170px;
+    cursor: pointer;
+}
+
+

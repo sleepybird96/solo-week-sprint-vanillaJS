@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="data.js"></script>
+
+</head>
+<body>
+  <header>
+    <h1>Twittler</h1>
+  </header>
+
+<!-- modal 부분 -->
+<button id ="modal_btn">모달달 버튼 +_+</button>
+<div id="myModal">
+    <div id="modal-content">        
+        <span class="close"> &times; </span>                                                     
+      <p>모달 is 달달. 달달한 모달달</p>
+    </div>
+</div>
+
+
+<div id = "all">
+  <section id = "wrap1">
+    <form id = "form1">
+      <label class="user"> UserName</label>
+        <p><input id="username" type="text"></input></p>
+        <label class="Comment">Comment </label>
+        <p><input id="comment" type="text"></input></p>
+        <button id = "btn" type="button"> Tweet!</button>
+        <button id = "gobackbtn" type="button"> back!</button>
+    </form>
+  </section>
+
+<section id = "wrap2">
+  <form id = "form2">
+    <button id = "checkbtn" type="button">check new tweet</button>
+  </form>
+  <ul id="contents"></ul>
+  </ul>
+</section>
+
+
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
