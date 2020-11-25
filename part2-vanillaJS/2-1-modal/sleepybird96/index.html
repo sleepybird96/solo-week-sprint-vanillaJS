@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+
+  <div id="container">
+          <!--첫번째 구간-->
+          <div class="page title"><h1>twittler</h1></div>
+
+          <!--두번째 구간-->
+          <div class="page subtitle">
+                    <div><strong>user name</strong></div>
+                    <input class = 'input name' type="text" name="user name">
+                    <div><strong>comment</strong></div>
+                    <div class="comment"><input class = 'input tweet' type="text" name="comment"></div>
+                    <div class="submit"><button class="tweetbtn"><strong>tweet!</strong></button></div>
+          </div>
+
+
+           <!--세번째 구간-->
+          <div class="page article">
+                    <div id='buttonBox'>
+                      <button class='getNewTweet' name="refresh">check new tweet</button>
+                    </div>
+                    <div>
+                    <ul id='comment'>
+                    </ul>
+                    </div>
+          </div>
+  </div>
+  <div id='notice'>
+    <div id= 'noticeContents'>
+      <h2>오후2시 ~오후6시 서버점검</h2>
+      <div id = 'notice'>서버점검이 2시부터 시작해서 오후 6시까지 있습니다.</br>서비스 이용에 착오 없으시길 바랍니다.</div>
+      <button id='closeNoticeBtn'>확인</button>
+    </div>
+  </div>
+  <div id='showNoticeBtn'>공지사항확인</div>
+  <div id='noticeBackground'></div>
+  <script src="script.js"></script>
+</body>
+</html>
